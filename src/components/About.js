@@ -1,4 +1,4 @@
-import { FaLaptopCode, FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaHourglassHalf } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaHourglassHalf } from 'react-icons/fa';
 
 const About = () => {
     return (

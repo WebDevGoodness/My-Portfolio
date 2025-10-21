@@ -1,4 +1,4 @@
-import { Download, Calendar, MapPin, Briefcase, GraduationCap, Award } from "lucide-react";
+import { Calendar, MapPin, Briefcase, GraduationCap, Award } from "lucide-react";
 
 const Experience = () => {
     const experiences = [

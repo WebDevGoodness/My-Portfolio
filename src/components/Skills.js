@@ -1,4 +1,4 @@
-import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaCloudUploadAlt, FaLaptopCode } from 'react-icons/fa'; // Added FaLaptopCode
+import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaLaptopCode } from 'react-icons/fa'; // Added FaLaptopCode
 import { SiTailwindcss, SiNetlify, SiPrettier, SiEslint, SiVercel } from 'react-icons/si'; // Removed SiVscode
 import { IoHardwareChipOutline } from "react-icons/io5"; // For general tools
 

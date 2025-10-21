@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, MessageSquare, Briefcase, DollarSign } from "lucide-react"; // Added MessageSquare, Briefcase, DollarSign
+import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Briefcase } from "lucide-react"; // Added MessageSquare, Briefcase, DollarSign
 import WhatsAppQRCode from "./WhatsAppQrcode";
 
 const Contact = () => {
