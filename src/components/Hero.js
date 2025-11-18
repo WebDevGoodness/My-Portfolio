@@ -1,5 +1,6 @@
 import { ArrowDown, Download } from "lucide-react";
-import hero_img from "../img/TechTitans.jpg"; // Assuming this is your profile image
+import hero_img from "../img/Tech.jpg"; // Assuming this is your profile image
+import myCV from "../assets/GOODNESS-CV.pdf";
 
 const Hero = () => {
     const scrollToSection = (sectionId) => {
@@ -42,13 +43,16 @@ const Hero = () => {
                                 View My Work
                                 <ArrowDown className="ml-3 w-5 h-5 animate-bounce-slow" />
                             </button>
-                            <button
+                            <a
+                                href={myCV}
+                                download
                                 className="inline-flex items-center justify-center px-10 py-4 text-lg font-semibold rounded-full border-2 border-purple-500 text-purple-300 bg-transparent hover:bg-purple-600 hover:text-white transition-all duration-300 transform hover:-translate-y-1 shadow-lg"
                                 aria-label="Download CV"
                             >
+
                                 Download CV
                                 <Download className="ml-3 w-5 h-5" />
-                            </button>
+                            </a>
                         </div>
                     </div>
 

@@ -27,12 +27,12 @@ const Experience = () => {
         }
     ];
 
-    const certifications = [
-        "AWS Certified Solutions Architect - Associate", // More specific
-        "Google Cloud Associate Cloud Engineer",        // More specific
-        "Meta Front-End Developer Professional Certificate", // More specific
-        "MongoDB Certified Developer - Associate"        // More specific
-    ];
+    // const certifications = [
+    //     "AWS Certified Solutions Architect - Associate", // More specific
+    //     "Google Cloud Associate Cloud Engineer",        // More specific
+    //     "Meta Front-End Developer Professional Certificate", // More specific
+    //     "MongoDB Certified Developer - Associate"        // More specific
+    // ];
 
     return (
         <section id="experience" className="py-20 px-4 bg-gray-900 text-gray-100 relative overflow-hidden">
@@ -140,7 +140,7 @@ const Experience = () => {
                         </div>
 
                         {/* Certifications */}
-                        <div>
+                        {/* <div>
                             <h3 className="text-3xl font-bold text-gray-100 mb-6 flex items-center gap-3">
                                 <Award className="w-7 h-7 text-green-400" /> Certifications
                             </h3>
@@ -155,7 +155,7 @@ const Experience = () => {
                                     ))}
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

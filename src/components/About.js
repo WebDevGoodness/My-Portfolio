@@ -18,7 +18,7 @@ const About = () => {
                             <p>
                                 <span className="text-teal-300 font-semibold">Hello there!</span> I'm a passionate
                                 <span className="text-blue-300 font-semibold"> Frontend Web Developer</span> with over
-                                <span className="text-teal-300 font-semibold"> 2 years of hands-on experience</span>. I thrive on
+                                <span className="text-teal-300 font-semibold"> 3 years of hands-on experience</span>. I thrive on
                                 crafting digital experiences that are not only aesthetically pleasing but also
                                 incredibly functional and user-friendly. My expertise lies in modern JavaScript
                                 frameworks and a robust understanding of core frontend technologies.
@@ -48,7 +48,7 @@ const About = () => {
                                 <FaHourglassHalf className="text-blue-400 text-3xl" />
                                 <div>
                                     <h3 className="mb-1 font-bold text-blue-300">Experience</h3>
-                                    <p className="text-gray-400">2+ Years Professional</p>
+                                    <p className="text-gray-400">3+ Years Professional</p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-4">

@@ -1,5 +1,5 @@
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaLaptopCode } from 'react-icons/fa'; // Added FaLaptopCode
-import { SiTailwindcss, SiNetlify, SiPrettier, SiEslint, SiVercel } from 'react-icons/si'; // Removed SiVscode
+import { SiTailwindcss, SiNetlify, SiTypescript, SiPrettier, SiEslint, SiVercel } from 'react-icons/si'; // Removed SiVscode
 import { IoHardwareChipOutline } from "react-icons/io5"; // For general tools
 
 const Skills = () => {
@@ -10,6 +10,7 @@ const Skills = () => {
             skills: [
                 { name: "React", icon: <FaReact />, level: "Advanced" },
                 { name: "JavaScript", icon: <FaJsSquare />, level: "Advanced" },
+                { name: "TypeScript", icon: <SiTypescript />, level: "Advanced" },
                 { name: "HTML5", icon: <FaHtml5 />, level: "Expert" },
                 { name: "CSS3", icon: <FaCss3Alt />, level: "Expert" },
                 { name: "Tailwind CSS", icon: <SiTailwindcss />, level: "Advanced" }

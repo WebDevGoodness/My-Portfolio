@@ -1,50 +1,55 @@
 import { Github, ExternalLink, Award, Briefcase } from "lucide-react"; // Added Award and Briefcase
+import github_img from "../img/github.PNG";
+import nbaBoard_img from "../img/board.PNG";
+import toDO_img from "../img/todo.PNG";
+import qrCode_img from "../img/qrCode.PNG";
+import comingSoon_img from "../img/soon.PNG";
 
 const Projects = () => {
     const projects = [
         {
-            title: "E-Commerce Platform",
-            description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-            image: "https://images.unsplash.com/photo-1728598909887-2d983a8889b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4l202web202development%20office%7CenfwMXx8fHwxNzU3MDk4MzE2fD_s&ixlib=rb-4.1.0&q=80&w=1080",
-            technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-            githubUrl: "https://github.com/johndeveloper/ecommerce-platform",
-            liveUrl: "https://ecommerce-demo.com",
+            title: "NBA Score and Timer Board",
+            description: "A dynamic NBA score and timer board application that allows users to keep track of game scores and time in real-time.",
+            image: nbaBoard_img,
+            technologies: ["React", "TypeScript", "Tailwind CSS"],
+            githubUrl: "https://github.com/WebDevGoodness/NBA-Counter-App",
+            liveUrl: "https://nba-counter-app.vercel.app/",
             featured: true
         },
         {
-            title: "Task Management App",
-            description: "A comprehensive task management application with real-time updates, user collaboration, and project organization features.",
-            image: "https://images.unsplash.com/photo-1629904853716-9289658e1374?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXNrJTIwbWFuYWdlbWVudCUyMGFwcHxlbnwxfHx8fDE3NTcwOTg1OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-            technologies: ["Vue.js", "Firebase", "Express", "MongoDB", "Socket.io"],
-            githubUrl: "https://github.com/johndeveloper/task-manager",
-            liveUrl: "https://task-manager-demo.com",
+            title: "GitHub Profile",
+            description: "A comprehensive githup profile finder, that display github users details",
+            image: github_img,
+            technologies: ["React", "Tailwind CSS"],
+            githubUrl: "https://github.com/WebDevGoodness/github-profile-finder",
+            liveUrl: "https://github-profile-finder-liard.vercel.app/",
             featured: true
         },
         {
-            title: "Blog Platform",
-            description: "A sleek and responsive blog platform with a powerful CMS, markdown support, and comment section.",
-            image: "https://images.unsplash.com/photo-1546548970-70498b965f7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwbG9nJTIwZGVzaWdufGVufDF8fHx8MTc1NzA5ODYyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-            technologies: ["Next.js", "GraphQL", "Strapi", "Sass"],
-            githubUrl: "https://github.com/johndeveloper/blog-platform",
-            liveUrl: "https://blog-platform-demo.com",
+            title: "TO-DO App",
+            description: "A sleek and responsive to-do application that helps users manage their tasks efficiently with features like task addition, deletion, and editing.",
+            image: toDO_img,
+            technologies: ["React", "Tailwind CSS"],
+            githubUrl: "https://github.com/WebDevGoodness/to-do-list",
+            liveUrl: "https://to-do-list-eight-green-35.vercel.app/",
             featured: false
         },
         {
-            title: "Portfolio Website",
-            description: "A personal portfolio website showcasing projects, skills, and contact information, built with modern web technologies.",
-            image: "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MXx8fHwxNzU3MDk4NjUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-            technologies: ["Astro", "Tailwind CSS", "MDX"],
-            githubUrl: "https://github.com/johndeveloper/my-portfolio",
-            liveUrl: "https://my-portfolio-demo.com",
+            title: "QR Code Generator",
+            description: "A simple and efficient QR code generator that allows users to create QR codes for URLs and text inputs.",
+            image: qrCode_img,
+            technologies: ["React", "Tailwind CSS"],
+            githubUrl: "https://github.com/WebDevGoodness/Qr-code-generator",
+            liveUrl: "https://qr-code-generator-one-drab.vercel.app/",
             featured: false
         },
         {
-            title: "Weather Dashboard",
-            description: "A dynamic weather dashboard providing real-time weather updates based on user location or search query.",
-            image: "https://images.unsplash.com/photo-1561470407-a36c738e4a9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWF0aGVyJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc1NzA5ODY3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-            technologies: ["JavaScript", "HTML", "CSS", "OpenWeather API"],
-            githubUrl: "https://github.com/johndeveloper/weather-dashboard",
-            liveUrl: "https://weather-dashboard-demo.com",
+            title: "Website Coming Soon",
+            description: "A fun and interactive Tic Tac Toe game that allows two players to compete against each other with a sleek user interface.",
+            image: comingSoon_img,
+            technologies: ["JavaScript", "HTML", "CSS"],
+            githubUrl: "https://github.com/WebDevGoodness/Website-Coming-Soon",
+            liveUrl: "https://website-coming-soon-bice.vercel.app/",
             featured: false
         }
     ];
@@ -191,7 +196,7 @@ const Projects = () => {
                 <div className="text-center mt-20 animate-fade-in-up animation-delay-600">
                     <p className="text-xl text-gray-300 mb-6">Explore more of my work on GitHub!</p>
                     <a
-                        href="https://github.com/ceejayplus"
+                        href="https://github.com/WebDevGoodness?tab=repositories"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-lg font-semibold shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"

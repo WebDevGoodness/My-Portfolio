@@ -52,7 +52,7 @@ const Footer = () => {
                                 "Frontend Development",
                                 "API Integration", // Changed for more clarity
                                 "Performance Optimization", // Added a new service
-                                "Code Review & Mentoring"
+                                "Responsive Design"                                
                             ].map((service) => (
                                 <span key={service} className="hover:text-blue-400 transition-colors duration-300">{service}</span>
                             ))}
@@ -84,14 +84,14 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom Section */}
-                <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+                {/* <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
                     <p className="text-md text-gray-500">
                         © {currentYear} Goodness Babasola. All rights reserved.
                     </p>
                     <p className="flex items-center gap-2 text-md text-gray-500">
                         Built with <Heart className="w-5 h-5 text-red-500 animate-pulse" /> using Next.js & Tailwind CSS
                     </p>
-                </div>
+                </div> */}
             </div>
             {/* Custom Tailwind CSS Animations */}
             <style jsx>{`
