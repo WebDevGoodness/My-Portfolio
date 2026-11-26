@@ -1,6 +1,6 @@
 import { ArrowDown, Download } from "lucide-react";
-import hero_img from "../img/Tech.jpg"; // Assuming this is your profile image
 import myCV from "../assets/GOODNESS-CV.pdf";
+const hero_img = `${process.env.PUBLIC_URL}/Tech.jpg`;// Assuming this is your profile image
 
 const Hero = () => {
     const scrollToSection = (sectionId) => {
@@ -63,6 +63,8 @@ const Hero = () => {
                                 <img
                                     src={hero_img}
                                     alt="Goodness"
+                                    loading="eager"
+                                    fetchPriority="high"
                                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                                 />
                             </div>
