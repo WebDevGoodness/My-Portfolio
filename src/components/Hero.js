@@ -57,7 +57,7 @@ const Hero = () => {
                     </div>
 
                     {/* Right Content - Profile Image */}
-                    <div className="flex justify-center lg:justify-end animate-fade-in-right">
+                    <div className="flex justify-center lg:justify-end ">
                         <div className="relative group">
                             <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-teal-500/50 shadow-2xl transition-all duration-500 transform group-hover:scale-105 group-hover:rotate-3">
                                 <img
@@ -76,7 +76,7 @@ const Hero = () => {
                 </div>
             </div>
             {/* Custom Tailwind CSS Animations */}
-            <style jsx>{`
+            <style>{`
                 @keyframes fade-in-down {
                     0% { opacity: 0; transform: translateY(-20px); }
                     100% { opacity: 1; transform: translateY(0); }

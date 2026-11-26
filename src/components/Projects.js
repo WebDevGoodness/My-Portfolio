@@ -203,7 +203,7 @@ const Projects = () => {
                 </div>
             </div>
             {/* Custom Tailwind CSS Animations (Re-added for clarity) */}
-            <style jsx>{`
+            <style>{`
                 @keyframes fade-in-down {
                     0% { opacity: 0; transform: translateY(-20px); }
                     100% { opacity: 1; transform: translateY(0); }
