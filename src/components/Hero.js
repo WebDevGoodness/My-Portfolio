@@ -1,6 +1,6 @@
 import { ArrowDown, Download } from "lucide-react";
 import myCV from "../assets/GOODNESS-CV.pdf";
-const hero_img = `${process.env.PUBLIC_URL}/Tech.jpg`;// Assuming this is your profile image
+const hero_img = `${process.env.PUBLIC_URL}/Tech.webp`;// Assuming this is your profile image
 
 const Hero = () => {
     const scrollToSection = (sectionId) => {

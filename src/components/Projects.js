@@ -1,16 +1,12 @@
 import { Github, ExternalLink, Award, Briefcase } from "lucide-react"; // Added Award and Briefcase
-import github_img from "../img/github.PNG";
-import nbaBoard_img from "../img/board.PNG";
-import toDO_img from "../img/todo.PNG";
-import qrCode_img from "../img/qrCode.PNG";
-import comingSoon_img from "../img/soon.PNG";
+
 
 const Projects = () => {
     const projects = [
         {
             title: "NBA Score and Timer Board",
             description: "A dynamic NBA score and timer board application that allows users to keep track of game scores and time in real-time.",
-            image: nbaBoard_img,
+            image: `${process.env.PUBLIC_URL}/board.webp`,
             technologies: ["React", "TypeScript", "Tailwind CSS"],
             githubUrl: "https://github.com/WebDevGoodness/NBA-Counter-App",
             liveUrl: "https://nba-counter-app.vercel.app/",
@@ -19,7 +15,7 @@ const Projects = () => {
         {
             title: "GitHub Profile",
             description: "A comprehensive githup profile finder, that display github users details",
-            image: github_img,
+            image: `${process.env.PUBLIC_URL}/github.webp`,
             technologies: ["React", "Tailwind CSS"],
             githubUrl: "https://github.com/WebDevGoodness/github-profile-finder",
             liveUrl: "https://github-profile-finder-liard.vercel.app/",
@@ -28,7 +24,7 @@ const Projects = () => {
         {
             title: "TO-DO App",
             description: "A sleek and responsive to-do application that helps users manage their tasks efficiently with features like task addition, deletion, and editing.",
-            image: toDO_img,
+            image: `${process.env.PUBLIC_URL}/todo.webp`,
             technologies: ["React", "Tailwind CSS"],
             githubUrl: "https://github.com/WebDevGoodness/to-do-list",
             liveUrl: "https://to-do-list-eight-green-35.vercel.app/",
@@ -37,7 +33,7 @@ const Projects = () => {
         {
             title: "QR Code Generator",
             description: "A simple and efficient QR code generator that allows users to create QR codes for URLs and text inputs.",
-            image: qrCode_img,
+            image: `${process.env.PUBLIC_URL}/qrCode.webp`,
             technologies: ["React", "Tailwind CSS"],
             githubUrl: "https://github.com/WebDevGoodness/Qr-code-generator",
             liveUrl: "https://qr-code-generator-one-drab.vercel.app/",
@@ -46,7 +42,7 @@ const Projects = () => {
         {
             title: "Website Coming Soon",
             description: "A fun and interactive Tic Tac Toe game that allows two players to compete against each other with a sleek user interface.",
-            image: comingSoon_img,
+            image: `${process.env.PUBLIC_URL}/soon.webp`,
             technologies: ["JavaScript", "HTML", "CSS"],
             githubUrl: "https://github.com/WebDevGoodness/Website-Coming-Soon",
             liveUrl: "https://website-coming-soon-bice.vercel.app/",
